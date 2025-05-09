@@ -42,13 +42,6 @@
  (2)-`Kendall's tau generation.r` :This R script generates the Kendall tau values for each indicator using the pre-trasition time series
  data and the script `Box_plot.r` generate corresponding boxplots shown in Figure 5 (the shallow-lake model is given as an example, but the same code and procedure is also applicable for other models).
 
-### EWS_CSV_files
- This directory contains all CSV files with pre-transition time series data for each model, including those from the main text and Appendix C of the SI. The data is generated using the Julia script `EWS_pre-transition_data.jl`.  
-
- Using this dataset, one can directly recreate Figure 5 from the main text and the supplementary figures (for EWSs) in the SI using the R scripts `Kendall's_tau_generation.r` and `Box_plot.r`.  
-
- Each model is stored in a separate file, with each file containing 10 CSV datasets of 150 pre-transition time series arranged in columns—five datasets for each of the two species, corresponding to different values of 𝑞.
-
 ### Contour_Plot_SI
  This directory contains the code to generate the contour plots for the additional models described in Appendix C of the SI.
  
